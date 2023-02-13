@@ -6,7 +6,7 @@ const timeGroupElement = document.querySelector(".timeGroup");
 var isPlaying = false;
 var alarmTime;
 var currenTime;
-var alamrSong = new Audio("./assets/song/alarmSong.mp3");
+var alamrSong = new Audio("./assets/song/AlarmSong.mp3");
 
 //現在の時刻表示
 setInterval(function () {
