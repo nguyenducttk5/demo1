@@ -1,1 +1,39 @@
-<h1>hello</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>アラーム</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="alarmImg">
+        <img src="./assets/img/alarm.svg" alt="" />
+      </div>
+      <h1 class="currentTime"></h1>
+      <div class="timeGroup">
+        <div class="time">
+          <select name="hour" id="hour">
+            <option value="hour" selected hidden>時</option>
+          </select>
+        </div>
+        <div class="time">
+          <select name="minute" id="minute">
+            <option value="minute" selected hidden>分</option>
+          </select>
+        </div>
+        <div class="time">
+          <select name="second" id="second">
+            <option value="second" selected hidden>秒</option>
+          </select>
+        </div>
+      </div>
+      <button class="btn">アラーム設定</button>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
