@@ -1,3 +1,5 @@
+"use strict";
+
 const currentTimeElement = document.querySelector(".currentTime");
 const selectElement = document.querySelectorAll("select");
 const btnElement = document.querySelector(".btn");
